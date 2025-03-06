@@ -12,4 +12,4 @@ per_person = bill_total * tip_option / number_of_people
 per_person_rounded = round(per_person, 2)
 
 # output
-print(f"Each person should pay ${per_person_rounded}.")
+print(f"Each person should pay ${per_person_rounded:.2f}.")
